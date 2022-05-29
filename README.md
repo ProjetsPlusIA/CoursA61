@@ -36,11 +36,13 @@ Ainsi, pour  s’assurer que l’exécution du code de test test_predict.py qui 
 * MANIFEST.in : fournit des détails sur les fichiers à conserver dans le package.
 * Setup.py : Autres détails sur le modèle, les métadonnées, les exigences, les informations de licence et d'autres détails
  ```
- ### exigences de production
+ ### exigences de déploiement et mise en production
  ```
       numpy==1.15.4 scikit-learn==0.20.2 pandas==0.23.4
-      setuptools==40.6.3 molette==0.32.3
-      exigences de test
+      setuptools==40.6.3
+  ```
+ ### exigences de test de validation des différantes fonctionnaliées
+ ```
       pytest>=4.6.6,<5.0.0
 ```
 ## Fonctionnement :
@@ -50,11 +52,14 @@ Un nouveau fichier regression_model.pkl est généré dans le dossier packages/r
 ### D. Partie 3 :Configuration et publication du modèle en intégration continue sur CircleCI et  Gemfury
 * #### Configuration avec le jeton et le nom utilisateur (Token et username):
 * Il s'assurer d'abord de la création des comptes sur CircleCI et Gemfury:
-```
 * #### CiccleCI:
+```
+
     - Gnération Token
     - Génération Username
+```
 * #### Gemfury:
+```
     - PIP_EXTRA_INDEX_URL= https :// insérer_ici_ton_jeton_générer_via_Gemfury@pypi.fury.io/insérer_ici_your_username_de_Github
 ```
 ![](config_CircleCI.PNG)

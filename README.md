@@ -1,5 +1,5 @@
-# A. Introduction et mise en contexte du projet de synthése :
-* Dans le cadre d3 notre cours(420-A61-SF PRÉPARATION DE LA SOLUTION D'IA POUR LA MISE EN PRODUCTION groupe 12020
+# A. Mise en contexte du projet de synthése :
+* Dans le cadre dr notre cours(420-A61-SF PRÉPARATION DE LA SOLUTION D'IA POUR LA MISE EN PRODUCTION groupe 12020
 ), nous notre mandat réside de la mise en place la structure de compilation et de création des
 modèles de manière automatique, en utilisant GitHub, CircleCI (CI- CD) et GemFury(un utilitaire de
 publication pour la mise en production)
@@ -58,5 +58,10 @@ Un nouveau fichier regression_model.pkl est généré dans le dossier packages/r
     - PIP_EXTRA_INDEX_URL= https :// insérer_ici_ton_jeton_générer_via_Gemfury@pypi.fury.io/insérer_ici_your_username_de_Github
 ```
 ![](config_CircleCI.PNG)
+
+* #### Capture d'écran illustrant le succès des tâches :
+
+![](Validation_Succes_CI.PNG)
+ 
 
 

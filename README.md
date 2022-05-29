@@ -36,12 +36,12 @@ Ainsi, pour  s’assurer que l’exécution du code de test test_predict.py qui 
 * MANIFEST.in : fournit des détails sur les fichiers à conserver dans le package.
 * Setup.py : Autres détails sur le modèle, les métadonnées, les exigences, les informations de licence et d'autres détails
  ```
- ### exigences de déploiement et mise en production
+ ### Les exigences de déploiement et mise en production
  ```
       numpy==1.15.4 scikit-learn==0.20.2 pandas==0.23.4
       setuptools==40.6.3
   ```
- ### exigences de test pour valider les différantes fonctionnaliées développer associées notre modéle de prédiction:
+ ### Les exigences de test pour valider les différantes fonctionnaliées développer associées notre modéle de prédiction:
  ```
       pytest>=4.6.6,<5.0.0
 ```

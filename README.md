@@ -22,9 +22,9 @@ Chaque dossier doit avoir un fichier __init__.py
 * Il s'agit de la deuxième partie qu'on splite sur plusieurs parties sur la création et le déploiement d'un modèle d'apprentissage automatique - création et installation d'un package python à partir de votre modèle prédictif en Python.
 
 ![](img_partie2.PNG)
-## NB
+#### NB
+Ainsi, pour  s’assurer que l’exécution du code de test test_predict.py qui contient le code pour tester notre modèle avec toutes les fonctionnalisées qu’on a bâti, il ne faut pas oublier de mettre à jour notre fichier de requirement.txt par l’ajout de librairie de test (pytest avec la bonne version)
  ```
-* Ainsi, pour que s’assurer l’exécution du code de test test_predict.py qui contient le code pour tester notre modèle avec toutes les fonctionnalisées qu’on a bâti, il ne faut pas oublier de mettre à jour notre fichier de requirement.txt par l’ajout de librairie de test (pytest avec la bonne version)
 * Trained_model : emplacement pour enregistrer les modèles dans le fichier .pkl
 * Pipeline.py : Construire un pipeline avec toutes les opérations
 

@@ -64,7 +64,7 @@ Un nouveau fichier regression_model.pkl est généré dans le dossier packages/r
 ```
 ![](config_CircleCI.PNG)
 
-* #### Capture d'écran illustrant le succès des tâches :
+* #### Capture d'écran du tableau de bord illustrant le succès des tâches (Jobs) :
 
 ![](Validation_Succes_CI.PNG)
  

@@ -8,3 +8,12 @@ et crée automatiquement un nouvel artefact, qui sera hébergé chez GemFury
 * Le modèle utilise un jeu de données Kaggle appelé « House Prices - Advanced Regression Techniques
 » et qui sert à prédire le prix des maisons, basé sur leur caractéristique propre et le marché
 ### Partie 1 : organiser le code en pipelines et entraîner le modèle
+Les répertoires sont restructurés comme dans l'image ci-dessous
+
+
+Ceci n'est qu'une partie du code qui utilise trois fichiers principaux : pipeline.py, preprocessors.py et train_pipeline.py. En dehors de cela, train.csv et test.csv sont stockés dans le dossier /packages/regression_model/datasets
+Chaque dossier doit avoir un fichier __init__.py (ils ne sont pas présents dans le référentiel GitHub)
+
+### Partie 2 : Créer un package Python à partir d'un modèle ML
+
+* Il s'agit de la deuxième partie de la série en plusieurs parties sur la création et le déploiement d'un modèle d'apprentissage automatique - création et installation d'un package python à partir de votre modèle prédictif en Python.

@@ -10,7 +10,7 @@ et crée automatiquement un nouvel artefact, qui sera hébergé chez GemFury
 ### Partie 1 : organiser le code en pipelines et entraîner le modèle
 Les répertoires sont restructurés comme dans l'image ci-dessous
 
-<img src ="img_Partie1.png">
+<img src ="img_1artie1.png">
 
 
 Ceci n'est qu'une partie du code qui utilise trois fichiers principaux : pipeline.py, preprocessors.py et train_pipeline.py. En dehors de cela, train.csv et test.csv sont stockés dans le dossier /packages/regression_model/datasets

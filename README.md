@@ -1,4 +1,4 @@
-# cours-A61
+# Introduction et mise en contexte du projet de synthése ( Cours A61 ) :
 * Dans le cadre du cours, nous devons mettre en place la structure de compilation et de création des
 modèles de manière automatique, en utilisant GitHub, CircleCI (CI- CD) et GemFury(un utilitaire de
 publication pour la mise en production)
@@ -9,6 +9,8 @@ et crée automatiquement un nouvel artefact, qui sera hébergé chez GemFury
 » et qui sert à prédire le prix des maisons, basé sur leur caractéristique propre et le marché
 ### Partie 1 : organiser le code en pipelines et entraîner le modèle
 Les répertoires sont restructurés comme dans l'image ci-dessous
+
+<img src ="img_Partie1.png">
 
 
 Ceci n'est qu'une partie du code qui utilise trois fichiers principaux : pipeline.py, preprocessors.py et train_pipeline.py. En dehors de cela, train.csv et test.csv sont stockés dans le dossier /packages/regression_model/datasets

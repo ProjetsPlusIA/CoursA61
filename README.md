@@ -23,6 +23,7 @@ Chaque dossier doit avoir un fichier __init__.py
 
 ![](img_partie2.PNG)
 ## NB
+ ```
 * Ainsi, pour que s’assurer l’exécution du code de test test_predict.py qui contient le code pour tester notre modèle avec toutes les fonctionnalisées qu’on a bâti, il ne faut pas oublier de mettre à jour notre fichier de requirement.txt par l’ajout de librairie de test (pytest avec la bonne version)
 * Trained_model : emplacement pour enregistrer les modèles dans le fichier .pkl
 * Pipeline.py : Construire un pipeline avec toutes les opérations
@@ -34,6 +35,7 @@ Chaque dossier doit avoir un fichier __init__.py
 * Pip install -r requirements.txt doit être exécuté une fois on ait denvant un ajout d'une nouvelle package ou une Lib.
 * MANIFEST.in : fournit des détails sur les fichiers à conserver dans le package.
 * Setup.py : Autres détails sur le modèle, les métadonnées, les exigences, les informations de licence et d'autres détails
+ ```
  ### exigences de production
  ```
       numpy==1.15.4 scikit-learn==0.20.2 pandas==0.23.4
@@ -47,6 +49,14 @@ Un nouveau fichier regression_model.pkl est généré dans le dossier packages/r
 
 ### D. Partie 3 :Configuration et publication du modèle en intégration continue sur CircleCI et  Gemfury
 * #### Configuration avec le jeton et le nom utilisateur (Token et username):
+* Il s'assurer d'abord de la création des comptes sur CircleCI et Gemfury:
+```
+* #### CiccleCI:
+    - Gnération Token
+    - Génération Username
+* #### Gemfury:
+    - PIP_EXTRA_INDEX_URL= https :// insérer_ici_ton_jeton_générer_via_Gemfury@pypi.fury.io/insérer_ici_your_username_de_Github
+```
 ![](config_CircleCI.PNG)
 
 

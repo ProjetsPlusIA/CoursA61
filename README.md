@@ -14,7 +14,6 @@ Les répertoires sont restructurés comme dans l'image ci-dessous
 
 ![](img_partie1.PNG)
 
-
 Ceci n'est qu'une partie du code qui utilise trois fichiers principaux : pipeline.py, preprocessors.py et train__pipeline.py. En dehors de cela, train.csv et test.csv sont stockés dans le dossier /packages/regression_model/datasets
 Chaque dossier doit avoir un fichier __init__.py
 

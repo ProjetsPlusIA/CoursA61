@@ -7,3 +7,4 @@ que lorsqu’un nouveau changement est envoyé vers GitHub, un processus récup�
 et crée automatiquement un nouvel artefact, qui sera hébergé chez GemFury
 * Le modèle utilise un jeu de données Kaggle appelé « House Prices - Advanced Regression Techniques
 » et qui sert à prédire le prix des maisons, basé sur leur caractéristique propre et le marché
+### Partie 1 : organiser le code en pipelines, entraîner le modèle

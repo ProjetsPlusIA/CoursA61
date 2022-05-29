@@ -41,7 +41,7 @@ Ainsi, pour  s’assurer que l’exécution du code de test test_predict.py qui 
       numpy==1.15.4 scikit-learn==0.20.2 pandas==0.23.4
       setuptools==40.6.3
   ```
- ### exigences de test de validation des différantes fonctionnaliées
+ ### exigences de test pour valider les différantes fonctionnaliées développer associées notre modéle de prédiction:
  ```
       pytest>=4.6.6,<5.0.0
 ```

@@ -9,6 +9,7 @@ from setuptools import find_packages, setup
 
 
 # Package meta-data.
+# Package meta-data.
 NAME = 'regression_model'
 # DESCRIPTION = 'Train and deploy regression model.'
 # URL = 'your github project'
@@ -19,6 +20,7 @@ URL = 'https://github.com/ProjetsPlusIA/CoursA61.git'
 EMAIL = 'projetsplus.ia@gmail.com'
 AUTHOR = 'Mohamed Nacereddine Toros'
 REQUIRES_PYTHON = '>=3.6.0'
+
 
 
 # What packages are required for this module to be executed?

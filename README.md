@@ -47,6 +47,6 @@ Un nouveau fichier regression_model.pkl est généré dans le dossier packages/r
 
 ### D. Partie 3 :Configuration et publication du modèle en intégration continue sur CircleCI et  Gemfury
 * #### Configuration avec le jeton et le nom utilisateur (Token et username):
-
+![](config_CircleCI.PNG)
 
 

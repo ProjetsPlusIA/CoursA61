@@ -1,6 +1,6 @@
 # A. Mise en contexte du projet de synthése :
 ![](house_prediction.PNG)
-* Dans le cadre dr notre cours(420-A61-SF PRÉPARATION DE LA SOLUTION D'IA POUR LA MISE EN PRODUCTION groupe 12020
+* Dans le cadre de notre cours(420-A61-SF PRÉPARATION DE LA SOLUTION D'IA POUR LA MISE EN PRODUCTION groupe 12020
 ), nous notre mandat réside de la mise en place la structure de compilation et de création des
 modèles de manière automatique, en utilisant GitHub, CircleCI (CI- CD) et GemFury(un utilitaire de
 publication pour la mise en production)
@@ -8,7 +8,7 @@ publication pour la mise en production)
 que lorsqu’un nouveau changement est envoyé vers GitHub, un processus récupère ce code, le compile
 et crée automatiquement un nouvel artefact, qui sera hébergé chez GemFury
 * Le modèle utilise un jeu de données Kaggle appelé « House Prices - Advanced Regression Techniques
-» et qui sert à prédire le prix des maisons, basé sur leur caractéristique propre et le marché
+» et qui sert à prédire le prix des maisons, basé sur leur caractéristique propre et le marché (le lien du site de Kaggle [Kaggle Page](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/kernels))
 
 ### B. Partie 1 : organiser le code en pipelines et entraîner le modèle
 Les répertoires sont restructurés comme dans l'image ci-dessous
@@ -52,7 +52,7 @@ Un nouveau fichier regression_model.pkl est généré dans le dossier packages/r
 
 ### D. Partie 3 :Configuration et publication du modèle en intégration continue sur CircleCI et  Gemfury
 * #### Configuration avec le jeton et le nom utilisateur (Token et username):
-* Il s'assurer d'abord de la création des comptes sur CircleCI et Gemfury:
+* Il faut s'assurer d'abord de la création des comptes sur CircleCI et Gemfury:
 * #### CiccleCI:
 ```
 

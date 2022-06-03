@@ -1,7 +1,7 @@
 # A. Mise en contexte du projet de synthése :
 ![](house_prediction.PNG)
 * Dans le cadre de notre cours(420-A61-SF PRÉPARATION DE LA SOLUTION D'IA POUR LA MISE EN PRODUCTION groupe 12020
-), nous notre mandat réside de la mise en place la structure de compilation et de création des
+), notre mandat réside de la mise en place la structure de compilation et de création des
 modèles de manière automatique, en utilisant GitHub, CircleCI (CI- CD) et GemFury(un utilitaire de
 publication pour la mise en production)
 * Le travail consiste donc à créer un modèle en python, avec ses propres tests unitaires et de faire en sorte
